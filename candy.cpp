@@ -1,3 +1,10 @@
+/* Leetcode Problem: Candy
+ * https://oj.leetcode.com/problems/candy/
+ *
+ * Author: Bryan Thornbury
+ * Note: Class Solution and Typedefs make up the submittable code. The rest is included for debugging.
+*/
+
 #include <vector>
 #include <algorithm>
 #include <functional>
