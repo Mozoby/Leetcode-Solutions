@@ -19,7 +19,7 @@ public:
         int ways = 0;
         
         if(p >= s.size()) return 1;
-        //printf("%d %d\n", p, s.size());
+        
         if(s[p] > 0) ways += memory(s,p+1);
         else return 0;
         
@@ -34,7 +34,7 @@ public:
     int numDecodings(string s) {
         mem.clear();
         nums.clear();
-        
+
         mem.resize(s.size() + 5, -1);
         nums.resize(s.size());
         
